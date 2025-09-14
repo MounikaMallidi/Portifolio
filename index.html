@@ -1,0 +1,809 @@
+<html>
+    <head>
+        <title>Portifolio</title>
+        <link rel="stylesheet" href="./mouni_portifolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <!-- Devicon CDN for tech logos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+        <link rel="icon" type="image/png" href="./mouni pic.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header_inner">
+                    <div class="header_left">
+                        <h3>Mounika Mallidi</h3>
+                    </div>
+                    <div class="header_right">
+                        <p onclick="document.getElementsByClassName('home_section')[0].scrollIntoView({ behavior: 'smooth' })">Home</p>
+                        <p onclick="document.getElementsByClassName('about')[0].scrollIntoView({ behavior: 'smooth' })">About</p>
+                        <p onclick="document.getElementsByClassName('skills')[0].scrollIntoView({ behavior: 'smooth' })">Skills</p>
+                        <p onclick="document.getElementsByClassName('projects')[0].scrollIntoView({ behavior: 'smooth' })">Projects</p>
+                        <p onclick="document.getElementsByClassName('codprofiles')[0].scrollIntoView({ behavior: 'smooth' })">Profiles</p>
+                        <p onclick="document.getElementsByClassName('certificates')[0].scrollIntoView({ behavior: 'smooth' })">Certifications</p>
+                        <p onclick="document.getElementsByClassName('experience')[0].scrollIntoView({ behavior: 'smooth' })">Experience</p>
+                        <p onclick="document.getElementsByClassName('education')[0].scrollIntoView({ behavior: 'smooth' })">Education</p>
+                        <p onclick="document.getElementsByClassName('connect')[0].scrollIntoView({ behavior: 'smooth' })">Contact</p>
+                    </div>
+                    <span class="menu-btn" id="menuBtn">&#9776;</span>
+                </div>
+            </div>
+            <div class="home_section">
+                <div class="home_section_inner">
+                    <div class="homesection_left">
+                        <p class="intro">Hello, I’m</p>
+                        <h2>
+                            <span class="first-name">Mounika</span>
+                            <span class="last-name">Mallidi</span>
+                        </h2>
+                        <p class="role">Aspiring Full Stack Developer | Tech Enthusiast | Problem solver</p>
+                        <p class="desc">
+                            Currently pursuing my B.Tech in Electronics and Communication Engineering, I’m driven 
+                            by a passion for coding and technology. I aim to combine my technical knowledge with 
+                            programming skills to build innovative projects and grow as a future software developer.
+                        </p>
+                        <div class="buttons">
+                            <button class="button1" 
+                                    onclick="document.getElementsByClassName('projects')[0].scrollIntoView({ behavior: 'smooth' })">
+                                <i class="fa-solid fa-sm fa-eye"></i> &nbsp;&nbsp;View My Work
+                            </button>
+
+                            <button class="button2"><a href="./Mounika__Mallidi_Resume .pdf"><i class="fa-solid fs-sm fa-download"></i> &nbsp;&nbsp;Download CV</a></button>
+                        </div>
+                        <div class="profiles">
+                            <a href="https://github.com/MounikaMallidi" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mounika-mallidi/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="mailto:mallidimounika20@gmail.com" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="homesection_right">
+                        <div class="image_box">
+                            <img src="./mouni_pic-removebg-preview.png"/>
+                        </div>
+                    </div>
+                    <div class="mobile_view" id="mobilemenu">
+                        <p onclick="document.getElementsByClassName('home_section')[0].scrollIntoView({ behavior: 'smooth' })">Home</p>
+                        <p onclick="document.getElementsByClassName('about')[0].scrollIntoView({ behavior: 'smooth' })">About</p>
+                        <p onclick="document.getElementsByClassName('skills')[0].scrollIntoView({ behavior: 'smooth' })">Skills</p>
+                        <p onclick="document.getElementsByClassName('projects')[0].scrollIntoView({ behavior: 'smooth' })">Projects</p>
+                        <p onclick="document.getElementsByClassName('codprofiles')[0].scrollIntoView({ behavior: 'smooth' })">Profiles</p>
+                        <p onclick="document.getElementsByClassName('certificates')[0].scrollIntoView({ behavior: 'smooth' })">Certifications</p>
+                        <p onclick="document.getElementsByClassName('experience')[0].scrollIntoView({ behavior: 'smooth' })">Experience</p>
+                        <p onclick="document.getElementsByClassName('education')[0].scrollIntoView({ behavior: 'smooth' })">Education</p>
+                        <p onclick="document.getElementsByClassName('connect')[0].scrollIntoView({ behavior: 'smooth' })">Contact</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about_inner">
+                    <div class="about_heading">
+                        <h1>About <span>Me</span></h1>
+                    </div>
+                    <div class="about_quote">
+                        <p>A passionate developer who loves turning complex problems into simple, beautiful, and intuitive solutions.</p>
+                    </div>
+                    <div class="about_section">
+                        <div class="about_left">
+                            <p>Hello! I'm <span>Mounika Mallidi</span>, an Electronics and Communication Engineering (ECE) student with a passion for technology and problem-solving.</p>
+                            <p>I have experience in programming with <span>C</span>, <span>C++</span>, <span>Java</span>, <span>Python</span>, <span>Oops</span>, <span>SQL</span>, and <span>DBMS</span>, along with knowledge of digital design and <span>Verilog HDL</span> from my core domain.</p>
+                            <p>As an <span>aspiring full-stack developer</span>, I work with <span>HTML</span>, <span>CSS</span>, <span>Javascript</span>, and <span>Bootstrap</span> to create responsive and user-friendly web applications. I’m also a <span>competitive programmer</span>, constantly sharpening my problem-solving skills.</p>
+                            <p>Driven by curiosity and continuous learning, I aim to bridge my software expertise with electronics knowledge to build impactful and innovative solutions.</p>
+                        </div>
+                        <div class="about_right">
+                            <div class="about_right_up">
+                                <div class="about_box1">
+                                    <div class="box1_logo">
+                                        <i class="fa-solid fa-graduation-cap icon"></i>
+                                    </div>
+                                    <div class="box1_content">
+                                        <h3>Educational Background</h3>
+                                        <p>ECE student with a strong foundation in electronics, communication systems, and computing.</p>
+                                    </div>
+                                </div>
+                                <div class="about_box2">
+                                    <div class="box2_logo">
+                                        <i class="fa-solid fa-code icon"></i>
+                                    </div>
+                                    <div class="box2_content">
+                                        <h3>Programming & Technical Skills</h3>
+                                        <p>Proficient in C, C++, Java, Python, SQL, DBMS, and OOPs with strong problem-solving capabilities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about_right_down">
+                                <div class="about_box3">
+                                    <div class="box3_logo">
+                                        <i class="devicon-react-original icon"></i>
+                                    </div>
+                                    <div class="box3_content">
+                                        <h3>Full-Stack Development</h3>
+                                        <p>Aspiring developer with experience in building responsive web solutions using HTML, CSS, JavaScript, and Bootstrap.</p>
+                                    </div>
+                                </div>
+                                <div class="about_box4">
+                                    <div class="box4_logo">
+                                        <i class="fa-solid fa-bullseye icon"></i>
+                                    </div>
+                                    <div class="box4_content">
+                                        <h3>Problem Solver</h3>
+                                        <p>Passionate about tackling coding challenges, optimizing solutions, and applying analytical thinking to real-world problems.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="skills_inner">
+                    <div class="skills_heading">
+                        <h1>Technical <span>Skills</span></h1>
+                    </div>
+                    <div class="skills_quote">
+                        <p>A comprehensive toolkit spanning full-stack development, data analysis, and AI integration.</p>
+                    </div>
+                    <div class="skills_grid">
+                        <div class="languages">
+                            <div class="language_logo">
+                                <i class="fa-solid fa-xl fa-code"></i>
+                            </div>
+                            <h3>Languages</h3>
+                            <div class="lang_c">
+                                <div class="c_title">
+                                    <p>C</p>
+                                </div>
+                                <div class="c_perc">
+                                    <p>90%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:90%"></div></div>
+                            <div class="lang_cpp">
+                                <div class="cpp_title">
+                                    <p>C++</p>
+                                </div>
+                                <div class="cpp_perc">
+                                    <p>95%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:95%"></div></div>
+                            <div class="lang_python">
+                                <div class="python_title">
+                                    <p>Python</p>
+                                </div>
+                                <div class="python_perc">
+                                    <p>92%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:92%"></div></div>
+                            <div class="lang_java">
+                                <div class="java_title">
+                                    <p>Java</p>
+                                </div>
+                                <div class="java_perc">
+                                    <p>80%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:80%"></div></div>
+                        </div>
+                        <div class="development">
+                            <div class="dev_logo">
+                                <i class="fa-solid fa-xl fa-globe"></i>
+                            </div>
+                            <h3>Web Development</h3>
+                            <div class="dev_html">
+                                <div class="html_title">
+                                    <p>HTML</p>
+                                </div>
+                                <div class="html_perc">
+                                    <p>95%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:95%"></div></div>
+                            <div class="dev_css">
+                                <div class="css_title">
+                                    <p>CSS</p>
+                                </div>
+                                <div class="css_perc">
+                                    <p>93%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:93%"></div></div>
+                            <div class="dev_script">
+                                <div class="script_title">
+                                    <p>Java Script</p>
+                                </div>
+                                <div class="script_perc">
+                                    <p>85%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:85%"></div></div>
+                            <div class="dev_boot">
+                                <div class="boot_title">
+                                    <p>Boot Strap</p>
+                                </div>
+                                <div class="boot_perc">
+                                    <p>90%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:90%"></div></div>
+                        </div>
+                        <div class="database">
+                            <div class="base_logo">
+                                <i class="fa-solid fa-xl fa-database"></i>
+                            </div>
+                            <h3>Data Base</h3>
+                            <div class="base_dbms">
+                                <div class="dbms_title">
+                                    <p>DBMS</p>
+                                </div>
+                                <div class="dbms_perc">
+                                    <p>85%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:85%"></div></div>
+                            <div class="base_sql">
+                                <div class="sql_title">
+                                    <p>SQL</p>
+                                </div>
+                                <div class="sql_perc">
+                                    <p>90%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:90%"></div></div>
+                            <div class="base_mysql">
+                                <div class="mysql_title">
+                                    <p>MY SQL</p>
+                                </div>
+                                <div class="mysql_perc">
+                                    <p>90%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:90%"></div></div>
+                        </div>
+                        <div class="core">
+                            <div class="core_logo">
+                                <i class="fa-solid fa-xl fa-microchip"></i>
+                            </div>
+                            <h3>Core</h3>
+                            <div class="core_oops">
+                                <div class="oops_title">
+                                    <p>OOPs</p>
+                                </div>
+                                <div class="oops_perc">
+                                    <p>95%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:95%"></div></div>
+                            <div class="core_verilog">
+                                <div class="verilog_title">
+                                    <p>Verilog HDL</p>
+                                </div>
+                                <div class="verilog_perc">
+                                    <p>75%</p>
+                                </div>
+                            </div>
+                            <div class="progress"><div class="progress_bar" style="width:75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="projects_inner">
+                    <h1>Featured <span>Projects</span></h1>
+                    <p class="project_quote">A showcase of my best work, demonstrating expertise in full-stack development, AI integration, and creative problem-solving.</p>
+                    <div class="project_main">
+                        <div class="ecovana_project">
+                            <div class="ecovana_up">
+                                <h2>EcoVana</h2>
+                            </div>
+                            <div class="ecovana_down">
+                                <h3>AI Powered Gardening(Ecovana)</h3>
+                                <p>a responsive website using HTML, CSS, and JavaScript offering plant and seed listings, an
+                                AI-powered garden design generator, query assistance, educational videos, and a nursery locator to make gardening
+                                accessible and interactive.</p>
+                                <div class="ecovana_tech">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>Java script</p>
+                                    <p>AI Integration</p>
+                                </div>
+                                <div class="ecovana_code">
+                                    <a href="https://mounikamallidi.github.io/Ecovana/" target="_blank" rel="noopener noreferrer" class="project_git">
+                                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                                            class="lucide lucide-play">
+                                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                        </svg>
+                                        Live
+                                    </a>
+
+                                    <a href="https://github.com/MounikaMallidi/Ecovana.git" target="_blank" rel="noopener noreferrer" class="project_git">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                    Code
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="healthhub_project">
+                            <div class="health_up">
+                                <h2>Health Hub</h2>
+                            </div>
+                            <div class="health_down">
+                                <h3>Health Hub</h3>
+                                <p> a responsive front-end healthcare website using HTML and CSS, focused on
+                                    delivering a clean, accessible, and user-friendly interface. Integrated CSS animations to enhance visual engagement
+                                    and maintain smooth interactions across devices. </p>
+                                <div class="health_tech">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                </div>
+                                <div class="health_code">
+                                    <a href="https://mounikamallidi.github.io/HealthHub/" target="_blank" rel="noopener noreferrer" class="project_git">
+                                    <svg xmlns="http://www.w3.org/2000/svg" 
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                                        class="lucide lucide-play">
+                                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                                    </svg>
+                                    Live
+                                </a>
+
+                                    <a href="https://github.com/MounikaMallidi/HealthHub.git" target="_blank" rel="noopener noreferrer" class="project_git">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                                    Code
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="codprofiles">
+                <div class="profiles_inner">
+                <div class="profile_heading">
+                    <h1>Coding <span>Profiles</span></h1>
+                </div>
+                <div class="profile_quote">
+                    <p>Active presence across major competitive programming platforms, continuously improving problem-solving skills and algorithmic thinking.</p>
+                </div>
+                <div class="profile_grids">
+
+                    <!-- LeetCode -->
+                    <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_front">
+                        <img src="./icons8-leetcode-96.png" alt="LeetCode"/>
+                        <h2>LeetCode</h2>
+                        </div>
+                        <div class="profile_back">
+                        <div class="problem_count">
+                            <span class="count">300+</span>
+                            <span class="label">Problems Solved</span>
+                        </div>
+                        <div class="rating">
+                            <span class="ratscore">1488</span> 
+                            <span class="label">Rating/score</span>
+                        </div>
+                        <div class="view_profile"><a href="https://leetcode.com/u/MounikaMallidi/"><i class="fa-solid fa-up-right-from-square"></i> View Profile</a></div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- CodeChef -->
+                    <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_front">
+                        <img src="./icons8-codechef-144.png" alt="CodeChef"/>
+                        <h2>CodeChef</h2>
+                        </div>
+                        <div class="profile_back">
+                        <div class="problem_count">
+                            <span class="count">500+</span>
+                            <span class="label">Problems Solved</span>
+                        </div>
+                        <div class="rating">
+                            <span class="ratscore">1161</span> 
+                            <span class="label">Rating/score</span>
+                        </div>
+                        <div class="view_profile"><a href="https://www.codechef.com/users/mallidimounika"><i class="fa-solid fa-up-right-from-square"></i> View Profile</a></div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- GeeksforGeeks -->
+                    <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_front">
+                        <img src="./icons8-geeksforgeeks-144.png" alt="GeeksforGeeks"/>
+                        <h2>GeeksForGeeks</h2>
+                        </div>
+                        <div class="profile_back">
+                        <div class="problem_count">
+                            <span class="count">130+</span>
+                            <span class="label">Problems Solved</span>
+                        </div>
+                        <div class="rating">
+                            <span class="ratscore">308</span> 
+                            <span class="label">Rating/score</span>
+                        </div>
+                        <div class="view_profile"><a href="https://www.geeksforgeeks.org/user/mounika_20/"><i class="fa-solid fa-up-right-from-square"></i> View Profile</a></div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- HackerRank -->
+                    <div class="profile">
+                    <div class="profile_inner">
+                        <div class="profile_front">
+                        <img src="./icons8-hackerrank-96.png" alt="HackerRank"/>
+                        <h2>HackerRank</h2>
+                        </div>
+                        <div class="profile_back">
+                        <div class="problem_count">
+                            <span class="count">25</span>
+                            <span class="label">Stars</span>
+                        </div>
+                        <div class="rating">
+                            <span class="ratscore">6</span> 
+                            <span class="label">Badges</span>
+                        </div>
+                        <div class="view_profile"><a href="https://www.hackerrank.com/profile/MounikaMallidi"><i class="fa-solid fa-up-right-from-square"></i> View Profile</a></div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+            <div class="certificates">
+                <div class="certificates_inner">
+                <div class="certificates_heading">
+                    <h1><span>Certifications</span> & Learning</h1>
+                </div>
+                <div class="certificates_quote">
+                    <p>Continuous learning journey through industry-recognized certifications and specialized courses to stay updated with latest technologies.</p>
+                </div>
+                <div class="certificates_grid">
+                    <div class="certificates_web">
+                    <img src="./web1.webp"/>
+                    <div class="card_text">Web Development</div>
+                    <div class="overlay">
+                        <span class="material-symbols-outlined awards-icon">workspace_premium</span>
+                        <p>View Certificates</p>
+                        <div class="certificates_all">
+                            <p><a href="./HTML and CSS.pdf">HTML and CSS</a></p>
+                            <p><a href="./HTML.pdf">HTML</a></p>
+                            <p><a href="./CSS.pdf">CSS</a></p>
+                            <p><a href="./javascript_essential1_certificate.pdf">Javascript Essentials1</a></p>
+                            <p><a href="./JavaScript_Essentials_2_certificate.pdf">Javascript Essentials2</a></p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="certificates_prog">
+                    <img src="./programming1.avif">
+                    <div class="card_text">Programming Languages</div>
+                    <div class="overlay">
+                        <span class="material-symbols-outlined awards-icon">workspace_premium</span>
+                        <p>View Certificates</p>
+                        <div class="certificates_all">
+                            <p><a href="./C.pdf">C</a></p>
+                            <p><a href="./Mallidi Mounika python 101.pdf">Python</a></p>
+                            <p><a href="./Udemy Java.pdf">Java</a></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="certificates_hardware">
+                    <img src="./hardware1.webp">
+                    <div class="card_text">Hardware</div>
+                    <div class="overlay">
+                        <span class="material-symbols-outlined awards-icon">workspace_premium</span>
+                        <p>View Certificates</p>
+                        <div class="certificates_all">
+                            <p><a href="./certificate3(VLSI).pdf">Semiconductor</a></p>
+                            <p><a href="./certificate2(VLSI).pdf">Behavioral Modeling With Verilog</a></p>
+                            <p><a href="./certificate(VLSI).pdf">Digital IC Design Fundamentals</a></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience_inner">
+                <div class="experience_heading">
+                    <h1>Professional <span>Experience</span></h1>
+                </div>
+                    <div class="experience_quote">
+                    <p>Hands-on industry experience building real-world applications and working with professional development teams.</p>
+                    </div>
+                    <div class="experience_box">
+                    <div class="experience_top">
+                        <div class="experience_top_left">
+                        <div class="internlogo">
+                            <i class="devicon-react-original reacticon"></i>
+                        </div>
+                        <div class="companyname">
+                            <p class="interntech">Full Stack Development Intern</p>
+                            <p class="interncompany">Technical Hub Private Limited</p>
+                        </div>
+                        </div>
+                        <div class="experience_top_right">
+                        <div class="period">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#b3b1b1" viewBox="0 0 24 24">
+                            <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 
+                            2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 
+                            2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                            </svg>
+                            May 2025-June 2025
+                        </div>
+                        <div class="location">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#b3b1b1" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 
+                            9c0 5.25 7 13 7 13s7-7.75 
+                            7-13c0-3.87-3.13-7-7-7zm0 
+                            9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 
+                            6.5 12 6.5s2.5 1.12 2.5 
+                            2.5S13.38 11.5 12 11.5z"/>
+                            </svg>Remote
+                        </div>
+                        <div class="internship">Internship</div>
+                        </div>
+                    </div>
+                    <div class="experience_medium">
+                        <p>Intensive 2-month internship program focused on Full Stack Development with React Native, building strong foundations in modern web technologies and responsive design principles.</p>
+                    </div>
+                    <div class="experience_bottom">
+                        <h3>Key Responsibilities</h3>
+                        <ul>
+                        <li>Developed structured web pages using HTML semantics.</li>
+                        <li>Applied CSS selectors and styling basics to design user-friendly interfaces.</li>
+                        <li>Implemented layout techniques for responsive web applications.</li>
+                        <li>Designed and optimized responsive UI with media queries.</li>
+                        <li>Followed best practices in coding standards and collaborative learning.</li>
+                        </ul>
+                    </div>
+                    <div class="tools">
+                        <h3>Technologies & Tools Used</h3>
+                        <div class="tech_stack">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="education">
+                <div class="education_inner">
+                <div class="education_heading">
+                    <h2><span>Education</span> & Learning</h2>
+                </div>
+                    <p class="subtitle">Academic foundation that bridges analytical thinking with practical technology applications.</p>
+
+                    <div class="timeline">
+
+                    <!-- B.Tech -->
+                    <div class="timeline-box left">
+                        <div class="left_yearname">
+                        <p class="year">2023-2027</p>
+                        <p class="edu">BTech</p>
+                        </div>
+                        <p class="branch">Electronics And Communication Engineering</p>
+                        <p class="college">Aditya Engineering college</p>
+                        <p class="cgpa"><span class="material-symbols-outlined award-icon">
+                        workspace_premium
+                    </span>&nbsp;CGPA:&nbsp;9.43/10</p>
+                        <p class="info">
+                        Pursuing my Bachelor of Technology in ECE with focus on communication systems, embedded design, and modern digital technologies. 
+                        </p>
+                    </div>
+                    
+
+                    <!-- Intermediate -->
+                    <div class="timeline-box right">
+                        <div class="left_yearname">
+                        <p class="edu">Intermediate</p>
+                        <p class="year">2021-2023</p>
+                        </div>
+                        <p class="collegeinter">Aditya Junior college</p>
+                        <p class="cgpa"><span class="material-symbols-outlined award-icon">
+                        workspace_premium
+                    </span>&nbsp;Percentage:&nbsp;98.5%</p>
+                        <p class="info">
+                        Specialized in Mathematics, Physics, and Chemistry, developing strong analytical and mathematical foundations essential for technical problem-solving.
+                        </p>
+                    </div>
+
+                    <!-- 10th -->
+                    <div class="timeline-box left">
+                        <div class="left_yearname">
+                        <p class="year">2020-2021</p>
+                        <p class="edu">10th</p>
+                        </div>
+                        <p class="college">Saiteja Vidyaniketan(E.M) School</p>
+                        <p class="cgpa"><span class="material-symbols-outlined award-icon">
+                        workspace_premium
+                    </span>&nbsp;CGPA:&nbsp;10/10</p>
+                        <p class="info">
+                        Completed my schooling with strong academic performance, building a solid foundation in science, mathematics, and discipline for future learning.
+                        </p>
+                    </div>
+
+                </div>
+                </div>
+            </div>
+            <div class="connect">
+                <div class="connect_inner">
+                    <div class="connect_heading"><h1>Let's <span>Connect</span></h1></div>
+                    <div class="connect_quote">Ready to collaborate on your next project? I'd love to hear from you. Let's create something amazing together.</div>
+                    <div class="connect_divide">
+                        <div class="connect_left">
+                            <h3>Get in Touch</h3>
+                            <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and development. Feel free to reach out through any of the channels below.</p>
+                            <div class="connect_details">
+                                <div class="connect_email">
+                                <div class="connect_email_left">
+                                    <i class="fa-solid fa-envelope icon"></i>
+                                </div>
+                                <div class="connect_email_right">
+                                    <p>Email</p>
+                                    <p>mallidimounika20@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="connect_phone">
+                                <div class="connect_phone_left">
+                                    <i class="fa-solid fa-phone icon"></i>
+                                </div>
+                                <div class="connect_phone_right">
+                                    <p>Phone</p>
+                                    <p>+91 9866638946</p>
+                                </div>
+                            </div>
+                            <div class="connect_location">
+                                <div class="connect_location_left">
+                                    <i class="fa-solid fa-location-dot icon"></i>
+                                </div>
+                                <div class="connect_location_right ">
+                                    <p>Location</p>
+                                    <p>Available For Remote Work</p>
+                                </div>
+                            </div>
+                            </div>
+                            <h3>Connect On Social Media</h3>
+                            <div class="profiles">
+                            <a href="https://github.com/MounikaMallidi" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mounika-mallidi/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="mailto:mallidimounika20@gmail.com" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="connect_right">
+                            <div class="form">
+                                <div class="form_heading">Send a Message</div>
+                                <div class="form_content">
+                                    <div class="form_content_name">
+                                        <h3>Name</h3>
+                                        <input type="text" placeholder="Your Name"/>
+                                    </div>
+                                    <div class="form_content_mail">
+                                        <h3>Email</h3>
+                                        <input type="text" placeholder="Your Email"/>
+                                    </div>
+                                
+                                </div>
+                                <div class="form_content_subject">
+                                        <h3>Subject</h3>
+                                        <input type="text" placeholder="What this about?"/>
+                                    </div>
+                                    <div class="form_content_message">
+                                        <h3>Message</h3>
+                                        <textarea placeholder="Tell me about your project or just say hello.."></textarea>
+                                    </div>
+                                <div class="send">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <p>Send Message</p>
+                                </div>
+                                <div class="border"></div>
+                                <div class="para">
+                                    <p>I typically respond within 24 hours. Looking forward to hearing from you!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer_inner">
+                    <div class="footer_up">
+                        <div class="footer_content1">
+                        <h3>Mounika Mallidi</h3>
+                        <p>Full Stack Developer passionate about creating innovative solutions that bridge statistical analysis with modern web technologies.</p>
+                        <div class="footer_links">
+                            <div class="profiles">
+                            <a href="https://github.com/MounikaMallidi" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="github" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mounika-mallidi/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="linkedin" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="mailto:mallidimounika20@gmail.com" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="mail" class="lucide lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="footer_content2">
+                        <h3>Quick Links</h3>
+                        <div class="links1">
+                            <p onclick="document.getElementsByClassName('about')[0].scrollIntoView({ behavior: 'smooth' })">About</p>
+                            <p onclick="document.getElementsByClassName('skills')[0].scrollIntoView({ behavior: 'smooth' })">Skills</p>
+                        </div>
+                        <div class="links2">
+                            <p onclick="document.getElementsByClassName('projects')[0].scrollIntoView({ behavior: 'smooth' })">Projects</p>
+                            <p onclick="document.getElementsByClassName('codprofiles')[0].scrollIntoView({ behavior: 'smooth' })">Profiles</p>
+                        </div>
+                        <div class="links3">
+                            <p onclick="document.getElementsByClassName('certificates')[0].scrollIntoView({ behavior: 'smooth' })">Certificates</p>
+                            <p onclick="document.getElementsByClassName('experience')[0].scrollIntoView({ behavior: 'smooth' })">Experience</p>
+                        </div>
+                        <div class="links4">
+                            <p onclick="document.getElementsByClassName('education')[0].scrollIntoView({ behavior: 'smooth' })">Education</p>
+                            <p onclick="document.getElementsByClassName('connect')[0].scrollIntoView({ behavior: 'smooth' })">Contact</p>
+                        </div>
+                    </div>
+                    <div class="footer_content3">
+                        <h3>Let's Connect</h3>
+                        <p> Open to new opportunities Remote work available Full-stack & AI projects</p>
+                        <a href="mailto:mallidimounika20@gmail.com" ><button>
+                        <span class="material-symbols-outlined">mail</span>
+                         Get in Touch</button></a>
+                    </div>
+                    </div>
+                    <div class="footer_down">
+                        <div class="foot_bor"></div>
+                        <div class="footer_end">
+                            <p>© 2025 Mounika Mallidi. Made with <span class="material-symbols-outlined" style="color:red; font-size:16px;">favorite_border</span> and lots of coffee.</p>
+                            <button onclick="document.getElementsByClassName('home_section')[0].scrollIntoView({ behavior: 'smooth' })"><i class="fa-solid fa-arrow-up up-arrow"></i>Back to Top</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobilemenu");
+
+    menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("active");
+
+        // Toggle icon between bars ☰ and cross ×
+        if (mobileMenu.classList.contains("active")) {
+        menuBtn.innerHTML = "&times;"; // ×
+        } else {
+        menuBtn.innerHTML = "&#9776;"; // ☰
+        }
+    });
+    
+    </script>
+</html>
