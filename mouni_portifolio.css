@@ -509,6 +509,7 @@ body {
 .projects_inner h1{
     font-size: 3rem;
     margin-bottom:0px;
+    text-align:center;
 }
 .projects h1 span {
     background: linear-gradient(90deg, #00C9FF, #A770EF);
@@ -651,6 +652,7 @@ body {
     }
     .profile_heading{
         font-size: 1.5rem;
+        text-align:center;
     }
     .profile_heading h1 span {
         background: linear-gradient(90deg, #00C9FF, #A770EF);
@@ -1900,6 +1902,8 @@ button a{
     }
     .certificates_grid {
         grid-template-columns: 1fr;
+        justify-items: center;
+        align-items:center
     }
     .certificates_web,.certificates_prog,.certificates_hardware{
         width:350px;
@@ -2078,6 +2082,7 @@ button a{
     }
     .projects_inner h1{
         font-size:2.5rem;
+        text-align: center;
     }
     .project_quote{
         font-size:18px;
@@ -2205,6 +2210,7 @@ button a{
      }
      .profile_heading{
         font-size:1.3rem;
+        text-align: center;
     }
     .profile_quote{
         font-size:18px;
@@ -2313,6 +2319,14 @@ button a{
         font-size:16px;
         text-align: center;
     }
+    .profile_grids{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .footer_end p{
+        text-align:center;
+    }
     
 }
 @media(max-width:376px){
@@ -2352,9 +2366,7 @@ button a{
     .footer_end p{
         font-size:14px;
     }
-    .profile_grids{
-        grid-template-columns: 1fr;
-    }
+    
     .education_heading{
         font-size:24px;
     }
